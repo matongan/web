@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background: url('background.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.medsos {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
+}
+
+.medsos .container ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.medsos .container ul li {
+    margin: 0 10px;
+}
+
+.medsos .container ul li a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(34, 34, 34, 0.8);
+    color: #fff;
+}
+
+header .header-left {
+    display: flex;
+    align-items: center;
+}
+
+header .header-left img {
+    width: 100px; /* Sesuaikan ukuran logo */
+    height: auto;
+    margin-right: 10px; /* Beri jarak antara logo dan teks */
+}
+.header-left h1 {
+    margin: 0;
+    font-size: 35px;
+    color: #fff !important;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+header .header-right ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+header .header-right ul li {
+    margin: 0 15px;
+}
+
+header .header-right ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.center-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+}
+
+.center-icons ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.center-icons ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #b3e5fc; /* Ubah warna latar belakang menjadi biru muda */
+    padding: 15px; /* Turunkan sedikit padding agar kotaknya lebih kecil */
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Tambahkan efek transisi saat mengarahkan kursor ke atas kotak */
+}
+
+.center-icons ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    text-align: center;
+}
+
+.center-icons ul li a i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #ff5722;
+}
+
+.center-icons ul li:hover {
+    transform: translateY(5px); /* Turunkan kotak sedikit saat kursor diarahkan ke atas */
+}
+
+.center-icons ul li a:hover {
+    background-color: #81d4fa; /* Ubah warna latar belakang kotak menjadi biru muda yang lebih terang saat kursor diarahkan ke atas */
+}
